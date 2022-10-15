@@ -1,0 +1,374 @@
+.about-heading {
+    padding-top: 70px;
+    margin-bottom: 1rem!important;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center !important; */
+}
+.about-subHeaders {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-about {
+    margin-top: 97px !important;
+    margin-bottom: 97px !important;
+
+}
+.css-11reh94-MuiGrid-root{
+    padding-top: 60px !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+}
+.css-1idn90j-MuiGrid-root{
+     padding: 0 !important;
+}
+
+.about-header-web {
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+#abut-header-mod {
+    width: 100vw;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 601px) {
+    #abut-header-mod {
+        display: none !important;
+    }
+}
+
+.about-header-web {
+    width: 100vw !important;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+}
+
+#abut-header-mod {
+    width: 100vw;
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 601px) {
+    #abut-header-mod {
+        display: none !important;
+    }
+}
+
+.title-about {
+    font-family: ' Titling Gothic FB Compressed';
+    padding-bottom: 20px;
+
+}
+
+.title-nft {
+    padding: 100px 0px;
+}
+
+.nft-title {
+
+    font-size: 56px;
+    font-weight: 700;
+}
+.custom-row {
+    justify-content: center;
+    align-items: center;
+}
+.letterpad {
+    width: 3500px;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, .25);
+    -webkit-text-fill-color: #040825;
+    /* font-size: 100px !important; */
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 160px !important;
+    line-height: 160px !important;
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+    position: relative;
+    letter-spacing: 0.08em;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.side-line {
+    position: absolute;
+}
+
+.line-one {
+    left: -530px;
+}
+
+.line-two {
+    left: -220px;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.man-image {
+    position: relative;
+    left: 100px;
+    top: -440px;
+    width: 329px;
+    height: 433px;
+
+}
+
+.btn {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 48px;
+    font-family: 'Titling Gothic FB Narrow';
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+
+}
+
+.plain-button {
+    background: transparent;
+    border: 1.5px solid #FFFFFF;
+}
+
+.light-bg-time {
+    /* background: #F7F8F8 !important; */
+    background-image: url('./../../images/about/timming-bg.png') !important;
+
+}
+
+.light-bg {
+    background: #FFFFFF !important;
+}
+
+.section-timing {
+    padding-top: 100px;
+    padding-bottom: 128px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.time-grid {
+    padding-top: 40px;
+}
+
+.grid-title {
+    margin-top: 16px !important;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 18px;
+    line-height: 28px;
+    color: #030A2B;
+
+}
+
+.grid-content {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #383E55;
+
+}
+
+.section-grid {
+    padding: 0px 10px;
+    text-align: justify;
+}
+
+.section-faq {
+    padding: 0px;
+}
+
+.title-faq {
+    font-family: 'Titling Gothic FB Compressed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    /* identical to box height, or 100% */
+    text-align: center;
+    /* Font Color | Light Surface/Primary */
+    color: #030A2B;
+    padding: 4px;
+
+
+}
+
+.description-faq {
+    padding: 4px;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: center;
+
+    /* Font Color | Light Surface/Secondary */
+
+    color: #383E55;
+
+}
+
+
+.faq-grid {
+    text-align: center;
+}
+
+.faq-list {
+    padding-top: 64px;
+}
+
+.faq-items {
+    border-bottom: 1px solid #A7A9B4;
+    padding: 0px !important;
+}
+
+
+#timing-mod {
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 500 !important
+}
+
+#timing-sub-mod {
+    font-family: "Neue Haas Grotesk Text Pro";
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400 !important    
+}
+
+.section-with-radu {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-position: center;
+}
+
+.section-with-radu .title {
+    text-align: center;
+    background-position: center;
+}
+
+
+.email-input-about {
+    padding: 8px;
+    margin-top: 20px;
+    width: 335px;
+    height: 40px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+}
+
+.email-input-about img {
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 12px;
+}
+
+.email-input-about input {
+    /* margin-top: 0px !important ; */
+    margin-bottom: 4px;
+    width: 80%;
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+
+
+    color: #030A2B;
+    border: 0px;
+    /* margin: 0px; */
+    /* padding-bottom:4px !important; */
+    /* padding-right:12px ; */
+}
+
+.email-input-about input::placeholder {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* System Theme / 03 */
+
+    color: #6E737F;
+    /* padding-bottom:4px !important; */
+    /* padding-right:12px ; */
+}
+
+
+.input-box {
+    align-items: center;
+
+}
+
+.fontSize20 {
+    font-size: 20px;
+    font-family: Neue Haas Grotesk Text Pro;
+    line-height: 28px;
+    font-style: 55 Roman;
+    fill: solid #FFFFFF;
+}
+
+.btn-submit-email {
+    margin-top: 20px;
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 6px;
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(248.6deg, #3DAAF2 0%, #0032C7 57.55%, #001C71 100%);
+    border-radius: 40px;
+    position: relative;
+    /* top: 50%; */
+    left: 50%;
+    -ms-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+    border: 0px;
+
+    color: #FFFFFF;
+}
+
+

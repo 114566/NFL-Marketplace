@@ -1,0 +1,367 @@
+.menu-items {
+    /* Text */
+    text-decoration: none;
+    height: 20px;
+    /* Button Text/sm */
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    /* Font Color | Dark Surface/Primary */
+    color: #FFFFFF;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    padding: 15px;
+}
+
+.img-box img{
+    cursor: default !important;
+}
+.img-box{
+    cursor: default !important;
+}
+.m-10 {
+    margin-top: 100px;
+}
+
+video {
+    cursor: default !important;
+}
+.section-landing-image {
+    margin: 16px !important;
+}
+
+.leading-title {
+    font-family: 'Titling Gothic FB Compressed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.blue-button {
+    border: 0;
+    background: linear-gradient(248.6deg, #3DAAF2 0%, #0032C7 57.55%, #001C71 100%);
+}
+
+.button-container {
+    margin-top: 50px;
+
+}
+
+.btn {
+    margin: 0px 10px 0px 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 48px;
+    font-family: 'Titling Gothic FB Narrow';
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+}
+
+.plain-button {
+    background: transparent;
+    border: 1.5px solid #FFFFFF;
+}
+
+
+.first-image {
+    display: block;
+}
+
+.howitoworkimage {
+    width: auto;
+    height: auto;
+}
+
+
+.email-input {
+    background-color: #ffffff;
+    color: black;
+    border: 0;
+    border-radius: 10px 10px;
+    width: 350px;
+    height: 50px;
+
+}
+
+.kickoff-box {
+    align-items: center;
+    text-align: center;
+    padding: 10px 100px 450px 450px;
+    /* margin: 50% 50%; */
+
+}
+
+.kickoff-btn {
+    margin-left: 10px !important;
+    width: 200px;
+    border-radius: 50;
+}
+
+.section-landing-image {
+    padding: 64px 0px !important;
+}
+
+
+.email-input-landing {
+    padding: 10px;
+    margin-top: 20px;
+
+    width: 335px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    display: inline-block;
+
+}
+
+.email-input-landing img {
+    margin-bottom: 4px;
+    margin-left: 0px;
+    margin-right: 12px;
+}
+
+.email-input-landing input {
+
+    margin-bottom: 4px;
+    width: 80%;
+    color: #030A2B;
+    border: 0px;
+}
+
+.email-input-landing input::placeholder {
+    font-family: 'Neue Haas Grotesk Text Pro roman';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* System Theme / 03 */
+
+    color: #6E737F;
+    /* padding-bottom:4px !important; */
+    /* padding-right:12px ; */
+}
+
+
+.btn-submit-email-landing {
+    margin-left: 20px;
+    display: inline;
+    padding: 12px 24px;
+    gap: 6px;
+    text-decoration: none;
+    height: 48px;
+    background: linear-gradient(248.6deg, #3DAAF2 0%, #0032C7 57.55%, #001C71 100%);
+    border-radius: 48px;
+    border: 0px;
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+
+.btn-submit-email-landing1 {
+    display: inline;
+    width: 100% !important;
+    padding: 12px 24px;
+    gap: 6px;
+    color: #FFFFFF !important;
+    height: 48px;
+    background: transparent;
+    border-radius: 48px;
+    border: 1px solid #383E55;
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/* section-landing-counter */
+.section-landing-counter {
+    padding: 0px;
+}
+
+.countdown-section {
+    height: auto;
+    margin: 0;
+    background: linear-gradient(248.6deg, #3DAAF2 0%, #0032C7 57.55%, #001C71 100%);
+
+}
+
+.h2-title {
+    margin-bottom: 16px !important;
+    font-family: "Titling Gothic FB Compressed" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 64px !important;
+    line-height: 64px !important;
+    letter-spacing: 0.01em !important;
+}
+
+
+.h3-title {
+    margin-bottom: 16px !important;
+    font-family: "Titling Gothic FB Compressed" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 64px !important;
+    line-height: 64px !important;
+    letter-spacing: 0.01em !important;
+}
+
+
+.section-how {
+    padding: 96px 108px;
+    text-align: center;
+}
+
+.weeklyprice {
+    padding: 96px 0px;
+    text-align: center;
+}
+
+.week-title {
+    padding: 16px;
+}
+
+.week-image {
+    padding-top: 64px;
+
+}
+
+
+.how-card {
+    padding: 24px;
+    background-color: transparent;
+    text-align: left;
+    border-radius: 8px;
+}
+
+.how-card:hover {
+    background-color: #383E55;
+}
+
+
+.how-card img {
+    height: 29px;
+}
+
+.how-cart-title {
+    padding: 2px;
+    font-family: 'Titling Gothic FB Compressed' !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px !important;
+    line-height: 28px !important;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em !important;
+
+    /* Font Color | Dark Surface/Primary */
+
+    color: #FFFFFF;
+}
+
+.how-cart-description {
+    padding: 2px;
+    font-family: 'Neue Haas Grotesk Text Pro' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    color: #FFFFFF;
+    /* letter-spacing: 0.02em; */
+}
+
+.howitoworkcards {
+    width: 100% !important;
+}
+
+
+.white-button {
+    border: 0;
+    /* margin-top: 32px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* padding: 12px 24px; */
+    text-decoration: none;
+    width: 174px;
+    /* height: 48px; */
+    /* background: #FFFFFF; */
+    border-radius: 48px;
+    font-family: 'Titling Gothic FB Narrow' !important;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.14em;
+}
+
+
+
+.mail-input:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+.responsive-show:hover {
+    cursor: default !important;
+}
+
+.responsive-back {
+    display: show !important;
+    position: absolute;
+    /* top: 20px; */
+    right: 0px;
+
+}
+
+.responsive-back-hide {
+    display: none !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-back {
+        display: none !important;
+    }
+
+    .responsive-back-hide {
+        display: block !important;
+    }
+}

@@ -1,0 +1,13 @@
+import React from 'react'
+
+const PencilLogo = () => {
+  return (
+<svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M8.125 1.875L11.125 4.875M1 12H4L11.875 4.125C12.2728 3.72718 12.4963 3.18761 12.4963 2.625C12.4963 2.06239 12.2728 1.52283 11.875 1.125C11.4772 0.727177 10.9376 0.503681 10.375 0.503681C9.81239 0.503681 9.27282 0.727177 8.875 1.125L1 9V12Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+
+
+  )
+}
+
+export default PencilLogo

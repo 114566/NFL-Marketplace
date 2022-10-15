@@ -1,0 +1,69 @@
+h1{
+  font-family: 'Titling Gothic FB Compressed';
+font-style: normal;
+font-weight: 500;
+font-size: 80px;
+line-height: 80px;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7c91ff;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #7c85b5;
+}
+
+
+@font-face {
+  font-family: "Titling Gothic FB Compressed";
+  src: local("Titling Gothic FB Compressed"),
+   url("./Fonts/Titling\ Gothic\ FB\ Compressed\ Medium.otf") format("truetype");
+  }
+
+  @font-face {
+    font-family:"Titling Gothic FB Narrow";
+    src: local("Titling Gothic FB Narrow"),
+     url("./Fonts/Titling\ Gothic\ FB\ Narrow\ Standard.otf") format("truetype");
+  
+    }
+    @font-face {
+      font-family: "Titling Gothic FB Skyline";
+      src: local("Titling Gothic FB Skyline"),
+       url("./Fonts/TitlingGothicFBSkyline-Medium.otf") format("truetype");
+    
+      }
+
+      @font-face {
+        font-family: "Neue Haas Grotesk Text Pro";
+        src: local("TNeue Haas Grotesk Text Pro"),
+         url("./Fonts/NeueHaasDisplay-Light.ttf") format("truetype");
+      
+        }
+
+        @font-face {
+          font-family: "Neue Haas Grotesk Text Pro meduim";
+          src: local("Neue Haas Grotesk Text Pro meduim"),
+           url("./Fonts/NeueHaasDisplay-Mediu.ttf") format("truetype");
+        
+          }        @font-face {
+            font-family: "Neue Haas Grotesk Text Pro roman";
+            src: local("Neue Haas Grotesk Text Pro roman"),
+             url("./Fonts/NeueHaasDisplay-Roman.ttf") format("truetype");
+          
+            }

@@ -1,0 +1,679 @@
+body {
+  overflow-x: hidden !important;
+  height: auto;
+}
+
+html {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.counter-name {
+  text-transform: capitalize;
+  font-family: "Neue Haas Grotesk Text Pro" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  line-height: 24px !important;
+  text-align: center;
+  color: #ffffff;
+}
+
+.pick-freezes-counter{  
+  width: 100%;
+  padding-top: 6px;
+}
+
+.css-7tilpw-MuiButtonBase-root-MuiButton-root {
+  border: none !important;
+}
+.topsection {
+  position: fixed;
+  top: 75px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  z-index: 99999;
+  background: linear-gradient(248.6deg, #00B5E2 0%, #0032C7 57.55%, #001C71 100%);
+  width: 100%;
+}
+
+.css-1heqqso-MuiPaper-root-MuiAccordion-root {
+  background-color: transparent !important;
+}
+
+.css-1rrmtyq {
+  margin: auto !important;
+}
+
+.remove-icon {
+  position: absolute !important;
+  top: 0px !important;
+  right: 0px !important;
+}
+
+.css-zy1bwd {
+  position: relative !important;
+}
+
+
+.counter-colans {
+  position: relative;
+  top: -20px;
+  font-family: "Titling Gothic FB Narrow";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 56px !important;
+  line-height: 64px !important;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.day {
+  font-weight: 300 !important;
+  font-size: 14px !important;
+  text-align: center;
+  font-family: "Neue Haas Grotesk Text Pro";
+}
+
+.card-flex {
+  display: flex !important;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.css-q682ln-MuiTypography-root {
+  height: auto;
+  margin-top: 10px;
+}
+
+.MuiButtonBase-root {
+  /* border: none !important; */
+
+  outline: none !important;
+}
+
+.MuiButtonBase-root::before {
+  border: none !important;
+
+  outline: none !important;
+}
+
+.MuiButtonBase-root:hover {
+  border: none !important;
+
+  outline: none !important;
+}
+
+.MuiButtonBase-root::after {
+  border: none !important;
+
+  outline: none !important;
+}
+
+.css-1mlchod-MuiTypography-root {
+  font-size: 16px !important;
+  padding-left: 6px !important;
+}
+
+.css-uscu71 {
+  border-radius: 4px !important;
+}
+/* .day {
+    font-weight: 400;
+    font-size: 130%;
+    text-align: center;
+} */
+
+.productlefttitle {
+  font-style: Standard !important;
+  font-size: 55.05px !important;
+  line-height: 64.42px !important;
+  text-align: center !important;
+  vertical-align: top !important;
+  letter-spacing: 16% !important;
+}
+
+.css-allb8x-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: 10px !important;
+}
+
+
+.css-n8kj1u::before {
+  border-bottom: none !important;
+}
+.responsive-hide {
+  display: block;
+}
+
+.responsive-show {
+  display: none !important;
+}
+
+.counter-colans {
+  margin-top: 20px !important;
+}
+
+.ticket-product-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 41.92px;
+  top: 10px;
+}
+
+.top-product-content {
+  font-size: 128px;
+  font-family: Titling Gothic FB Compressed;
+  line-height: 128px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.m-20 {
+  margin-top: 100px !important;
+}
+
+.svg-hide {
+  display: none !important;
+}
+
+.title-small {
+  font-size: 20px;
+  font-weight: "500";
+}
+
+.faq-link {
+  margin-left: 0px !important;
+}
+
+.ticket-top-grid {
+  height: 50px !important;
+  padding: 12px 20px !important;
+  font-family: Neue Haas Grotesk Text Pro !important;
+
+  font-size: 14px !important;
+}
+
+.custom-ticket-top {
+  height: 50px !important;
+  padding: 6px 20px !important;
+}
+
+.ticket-number-big {
+  font-size: 140px !important;
+  font-family: Titling Gothic FB Compressed;
+  font-style: Medium;
+}
+
+.ticket-title {
+  font-family: "Titling Gothic FB Compressed" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px !important;
+  padding: 10px 15px;
+}
+
+@media only screen and (min-width: 601px) {
+  .responsive-footer-link {
+    display: flex;
+  }
+
+  .counter-number {
+    font-size: 180% !important;
+  }
+
+  .font-responsive {
+    font-size: 56px !important;
+  }
+
+  .counter-number {
+    font-family: "Titling Gothic FB Narrow" !important;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 56px !important;
+    line-height: 64px !important;
+    text-align: center;
+    letter-spacing: 0.01em !important;
+    color: #ffffff;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #weekly-image {
+    height: 180px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .section-faq {
+    padding: 0px !important;
+  }
+
+  .other-link {
+    margin-left: 0px !important;
+  }
+
+  .faq-link {
+    margin-left: 16px !important;
+  }
+
+  .section-with-radu {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    background-position: center !important;
+  }
+
+  .p-16 {
+    padding: 16px !important;
+  }
+
+  .svg-hide {
+    display: none !important;
+  }
+
+  .about-heading {
+    margin-top: -30px !important;
+  }
+
+  #svg-hide {
+    display: none !important;
+  }
+
+  .responsive-hide {
+    display: none !important;
+  }
+
+  .responsive-footer-link {
+    color: black !important;
+  }
+
+  .responsive-show {
+    display: block !important;
+  }
+
+  .responsive-card {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .responsive-card div {
+    display: flex;
+  }
+
+  .email-input-landing {
+    width: 100%;
+  }
+
+  .btn-submit-email-landing {
+    width: 100%;
+    margin: 0px !important;
+  }
+
+  btn-submit-email-landing:hover {
+    color: yellow;
+  }
+
+  .displaynone {
+    display: none;
+  }
+
+  .m-10 {
+    margin-top: 50px !important;
+  }
+
+  .h2-title {
+    font-size: 270% !important;
+  }
+
+  .title {
+    font-size: 420% !important;
+    line-height: 1.2 !important;
+  }
+
+  .css-4hleli-MuiPaper-root {
+    height: 250px !important;
+  }
+
+  .img-hide {
+    display: none !important;
+  }
+
+  .day {
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    text-align: center;
+    font-family: "Neue Haas Grotesk Text Pro";
+  }
+
+  .section-about {
+    margin-top: -20px !important;
+  }
+
+  .section-timing {
+    padding-top: 1px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .title-faq {
+    margin-top: 30px !important;
+    font-size: 270% !important;
+  }
+
+  .title {
+    font-size: 270% !important;
+  }
+
+  .timing-title {
+    font-size: 270% !important;
+  }
+
+  .responsive-getSet {
+    padding: 0px !important;
+  }
+
+  .ticket-top-grid {
+    margin: auto;
+  }
+
+  .section-tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    isolation: isolate;
+    /* width: 1440px; */
+    /* height: 2849.37px; */
+    background: linear-gradient(
+		171.91deg,
+        #061148 12.63%,
+        #001c71 20.3%,
+        #0032c7 60.46%,
+        #3daaf2 94.17%);
+  }
+
+  .faq-link {
+    margin-left: 16px !important;
+  }
+
+  .footer-margin {
+    margin-bottom: 40px !important;
+  }
+
+  .ticket-number-title {
+    font-size: 80% !important;
+    margin-top: -40px;
+    line-height: 1.4 !important;
+  }
+
+  .title-small {
+    font-size: 16px !important;
+    font-weight: "300" !important;
+  }
+
+  .ticket-top-grid {
+    margin-top: 10px !important;
+    font-family: Neue Haas Grotesk Text Pro !important;
+    line-height: 20px !important;
+    font-size: 14px !important;
+    padding: 12px 1px 12px 10px !important;
+  }
+
+  .ticket-title {
+    margin: auto;
+    padding: 0px !important;
+    font-family: Titling Gothic FB Compressed !important;
+    font-size: 36px !important;
+    line-height: 44px !important;
+    letter-spacing: 1% !important;
+  }
+
+  .ticket-item {
+    margin: 10px 0px;
+    width: 100% !important;
+  }
+
+  .ticket-number-container {
+    padding-bottom: 20px !important;
+  }
+
+  .ticket-top-icon {
+    margin-right: 20px !important;
+  }
+
+  .css-q682ln-MuiTypography-root {
+    height: 100% !important;
+    margin: auto !important;
+    vertical-align: middle;
+  }
+
+  .counter-number {
+    font-size: 200% !important;
+    font-weight: 450 !important;
+  }
+
+  .heightCard {
+    height: auto !important;
+  }
+
+  .ticket-first {
+    height: auto !important;
+  }
+
+  .ticket-second {
+    height: 150px !important;
+  }
+
+  .ticket-top-grid {
+    height: 50px !important;
+  }
+
+  .ticket-top-title {
+    font-size: 14px !important;
+    font-family: Neue Haas Grotesk Text Pro;
+  }
+
+  .ticket-number-big {
+    font-size: 70px !important;
+  }
+
+  .ticket-top-number {
+    font-size: 14px !important;
+    font-family: Neue Haas Grotesk Text Pro;
+  }
+
+  .card-flex {
+    display: flex !important;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .responsive-m {
+    margin: 16px;
+  }
+
+  .title-about {
+    font-size: 64px !important;
+    line-height: 64px !important;
+  }
+
+  .fontSize20 {
+    font-size: 20px !important;
+  }
+
+  .watermark {
+    font-size: 64px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    line-height: 1 !important;
+  }
+
+  .title-grab {
+    font-size: 36px !important;
+    font-family: Titling Gothic FB Compressed !important;
+    line-height: 44px !important;
+  }
+
+  .content-grab {
+    font-size: 18px !important;
+    font-family: Neue Haas Grotesk Text Pro !important;
+    line-height: 28px !important;
+  }
+
+  .css-q682ln-MuiTypography-root {
+    height: auto !important;
+  }
+
+  .blue-text-button {
+    min-width: 100% !important;
+  }
+
+  .mobile-center {
+    text-align: center !important;
+  }
+
+  .css-cn5iam {
+    justify-content: center !important;
+  }
+}
+
+.superBowl {
+  display: blocK;
+}
+
+@media only screen and (max-width: 1300px) {
+  .superBowl {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .responsive-flex-show {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-height: 250px) {
+  .responsive-flex-show-element {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .responsive-flex-show {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 95%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 601px) {
+  .header-responsive-navbar {
+    width: 160px !important;
+  }
+
+  .white-button {
+    border: 0;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    text-decoration: none;
+    width: 174px;
+    height: 48px;
+    background: #ffffff;
+    border-radius: 48px;
+    font-family: "Titling Gothic FB Narrow" !important;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.14em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .css-1i27l4i {
+    flex-direction: column !important;
+  }
+
+  .makeStyles-cardContainer-21 {
+    margin: 0px 0px !important;
+  }
+  .navbar-nav {
+    display: "flex";
+    gap: 1;
+  }
+
+  .css-iuzy7q {
+    width: 100% !important;
+  }
+
+
+  .meta-link-mobile {
+    text-align: left;
+  }
+
+  .meta-link-mobile {
+    left: 170px !important;
+  }
+
+  .css-1lgspbc-MuiTypography-root {
+    width: 100% !important;
+  }
+
+  .white-button {
+    border: 0;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 25px 24px;
+    text-decoration: none;
+    width: 100% !important;
+    height: 48px;
+    background: #ffffff;
+    border-radius: 48px;
+    font-family: "Titling Gothic FB Narrow" !important;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+    letter-spacing: 0.14em;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .displayNone {
+    display: none !important;
+  }
+
+  .responsive-flex-row {
+    flex-direction: column !important;
+  }
+
+  .responsive-flex-row button {
+    margin-top: 10px !important;
+  }
+
+  .css-kftjwu {
+    margin: auto !important;
+  }
+
+  .css-1lp5t60 {
+    text-align: center !important;
+    margin: auto !important;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container {
+    width: 100% !important;
+  }
+}

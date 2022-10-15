@@ -1,0 +1,237 @@
+import { makeStyles } from "@mui/styles";
+export const useStyles = makeStyles(() => ({
+  loadingContainer: {
+    position: 'absolute',
+    top: "50%",
+  },
+  cardContainer: {
+    border: "1px solid #383E55",
+    width: "25vw",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    // background: "#202640",
+    "@media (max-width: 1500px)": {
+      width: "30vw",
+    },
+    "@media (max-width: 1200px)": {
+      width: "40vw",
+    },
+    "@media (max-width: 900px)": {
+      width: "90vw",
+      margin: "20px 0",
+      "@media (max-height: 450px)": {
+        width: "60vw",
+      },
+    },
+  },
+  cardContainerSelectedActive: {
+    border: "0px solid #383E55",
+    width: "25vw",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    // background: "#202640",
+    "@media (max-width: 1500px)": {
+      width: "30vw",
+    },
+    "@media (max-width: 1200px)": {
+      width: "40vw",
+    },
+    background:
+      "linear-gradient(248.6deg, #07CEFF 0%, #003FFC 100%) !important",
+    boxShadow: "0px 0px 20px rgba(40, 212, 255, 0.45), 0px 0px 4px #01B6E2 !important",
+    padding: "3px",
+    "@media (max-width: 900px)": {
+      width: "90vw",
+      margin: "20px 0",
+      "@media (max-height: 450px)": {
+        width: "60vw",
+      },
+    },
+  },
+  imgContainer: {
+    // borderRight: "1px solid #383E55",
+  },
+  teamDetailsContainer: {
+    display: "flex",
+    padding: "0 10px",
+    justifyContent: "space-between",
+  },
+  textContainer: {
+    margin: "10px",
+  },
+  title: {
+    fontFamily: "Titling Gothic FB Compressed",
+    fontSize: "30px",
+    lineHeight: "40px",
+    fontWeight: "500",
+    fontStyle: "normal",
+    letterSpacing: "0.015em",
+    // color: "rgba(255, 255, 255, 0.75)",
+    "@media (max-width: 900px)": {
+      fontSize: "24px",
+      lineHeight: "36px",
+    }
+  },
+  score: {
+    fontFamily: "Neue Haas Grotesk Text Pro",
+    fontSize: "14px",
+    lineHeight: "20px",
+    fontWeight: "400",
+    fontStyle: "normal",
+    color: "rgba(255, 255, 255, 0.45)",
+  },
+  checkBoxContainer: {
+    margin: "10px",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  cardDetailsContainer: {
+    borderTop: "1px solid #383E55",
+    display: "flex",
+    flexDirection: "row",
+    padding: "0 10px",
+  },
+  firstContainer: {
+    // background: "#030A2B",
+    width: "145px",
+    height: "149px",
+  },
+  secondContainer: {
+    width: "100%",
+    borderLeft: "1px solid #383E55",
+    // background: "#030A2B",
+  },
+  pickedText: {
+    margin: "10px",
+    fontFamily: "Titling Gothic FB Narrow",
+    fontSize: "12px",
+    lineHeight: "16px",
+    fontWeight: "450",
+    fontStyle: "normal",
+    letterSpacing: "0.04em",
+    textTransform: "uppercase",
+    color: "rgba(255, 255, 255, 0.45)",
+    "@media (max-width: 900px)": {
+      fontSize: "9px",
+      lineHeight: "12px",
+    }
+  },
+  renderCardContainer: {
+    display: "flex",
+    flexDirection: "row",
+    width: "60%",
+    justifyContent: "space-around",
+    alignItems: "center",
+    margin: "10px 0",
+    "@media (max-width: 1500px)": {
+      width: "80vw",
+    },
+    "@media (max-width: 1200px)": {
+      width: "90vw",
+    },
+    "@media (max-width: 900px)": {
+      width: "100vw",
+      flexDirection: "column",
+      borderBottom: "1px solid #202640",
+    },
+    // "@media (max-width: 1000px)": {
+    //     width: "60%",
+    // },
+    // "@media (max-width: 900px)": {
+    //     width: "60%",
+    // },
+  },
+  scoreContainer: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  symbol: {
+    margin: "0",
+    fontFamily: "Titling Gothic FB Compressed",
+    fontSize: "36px",
+    lineHeight: "44px",
+    fontWeight: "500",
+    fontStyle: "normal",
+    letterSpacing: "0.01em",
+    color: "rgba(255, 255, 255, 0.75)",
+  },
+  timing: {
+    margin: "0px",
+    fontFamily: "Titling Gothic FB Narrow",
+    fontSize: "14px",
+    lineHeight: "20px",
+    fontWeight: "450",
+    fontStyle: "normal",
+    letterSpacing: "0.12em",
+    textTransform: "uppercase",
+    color: "rgba(255, 255, 255, 0.75)",
+  },
+  scoreBoard: {
+    margin: "0px",
+    fontFamily: "Titling Gothic FB Compressed",
+    fontSize: "36px",
+    lineHeight: "44px",
+    fontWeight: "500",
+    fontStyle: "normal",
+    letterSpacing: "0.01em",
+    color: "rgba(255, 255, 255, 0.45)",
+  },
+  text: {
+    margin: "0px",
+    fontFamily: "Titling Gothic FB Narrow",
+    fontSize: "14px",
+    lineHeight: "20px",
+    fontWeight: "450",
+    fontStyle: "normal",
+    letterSpacing: "0.12em",
+    textTransform: "uppercase",
+    color: "rgba(255, 255, 255, 0.45)",
+  },
+  mobileScoreContainer: {
+    display: "flex",
+    width: "90vw",
+    marginTop: "20px",
+    flexDirection: "row",
+    justifyContent: "space-between",
+    "@media (max-height: 450px)": {
+      width: "60vw",
+    },
+  },
+  gameIdContainer: {
+    // width: "55%",
+  },
+  gameId: {
+    margin: "0",
+    fontFamily: "Titling Gothic FB Narrow",
+    fontSize: "12px",
+    lineHeight: "16px",
+    fontWeight: "450",
+    fontStyle: "normal",
+    letterSpacing: "0.04em",
+    textTransform: "uppercase",
+    color: "rgba(255, 255, 255, 0.75)",
+  },
+  scoreTextContainer: {
+    display: "flex",
+    flexDirection: "row",
+    // width: "45%",
+    justifyContent: "space-between",
+  },
+  scoreText: {
+    margin: "0",
+    marginLeft: "20px",
+    fontFamily: "Titling Gothic FB Narrow",
+    fontSize: "12px",
+    lineHeight: "16px",
+    fontWeight: "450",
+    fontStyle: "normal",
+    letterSpacing: "0.04em",
+    textTransform: "uppercase",
+    color: "rgba(255, 255, 255, 0.45)",
+  },
+}));

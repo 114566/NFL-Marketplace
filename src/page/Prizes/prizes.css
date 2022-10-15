@@ -1,0 +1,569 @@
+.blue-text-button {
+    /* margin-top: 10px;  */
+    align-items: center;
+    /* padding: 12px 24px; */
+    /* width: auto; */
+    /* height: 48px; */
+    text-decoration: none;
+    /* border: 1px solid #0032C7; */
+    border-radius: 48px;
+    background-color: transparent;
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 16px;
+    /* line-height: 24px; */
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #0032C7;
+}
+
+.howtoplay-title {
+
+    font-family: 'Titling Gothic FB Compressed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    color: #030A2B;
+}
+.letterpad {
+    width: 3000px;
+    -webkit-text-stroke: 1px rgba(255, 255, 255, .25);
+    -webkit-text-fill-color: #040825;
+    /* font-size: 100px !important; */
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 160px !important;
+    line-height: 160px !important;
+    padding-top: 10px;
+    letter-spacing: 8%;
+    padding-bottom: 10px;
+    position: relative;
+    letter-spacing: 0.08em;
+}
+
+.line-one {
+    left: -32px !important;
+    letter-spacing: 5px !important;
+}
+
+.howtoplay-content {
+    font-family: 'Neue Haas Grotesk Text Pro' !important;
+    font-style: normal;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
+    /* or 156% */
+
+
+    /* Font Color | Light Surface/Secondary */
+
+    color: #383E55;
+}
+
+.howtoplay {
+    padding: 64px 108px;
+}
+
+.howtoplay-item {
+    padding: 10px 108px;
+}
+
+.overfill {
+    -webkit-text-fill-color: transparent;
+}
+
+.section-tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    isolation: isolate;
+    /* width: 1440px; */
+    /* height: 2849.37px; */
+    background: linear-gradient(171.91deg, #061148 12.63%, #001C71 20.3%, #0032C7 60.46%, #3DAAF2 94.17%);
+
+}
+
+.ticket-number-big {
+    font-family: 'Titling Gothic FB Compressed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 160px;
+    line-height: 160px;
+    color: #FFFFFF;
+}
+
+.ticket-item {
+    margin: 10px 0px !important;
+    padding: 0px;
+    width: 98.5% !important;
+    height: 255;
+    border: 1px solid #FFFFFF;
+    border-radius: 12px;
+}
+.css-1nv1o5k-MuiGrid-root  {
+    max-width: unset !important;
+}
+
+.ticket-third {
+    position: relative;
+    border-right: 1px solid rgb(0 181 226 / 70%);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ticket-first {
+    position: relative;
+    height: 255px;
+    border-right: 1px solid #FFFFFF;
+    text-align: center;
+    ;
+}
+
+.ticket-second {
+    height: 250.77px;
+}
+.custom-ticket-tops2{
+    border-bottom: 1px solid rgb(0 181 226 / 70%) !important;
+}
+.ticket-top-grids2 {
+    text-align: left;
+    padding: 12px 42px;
+    height: 50px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.ticket-bottom-grid {
+    /* margin-top: 10%; */
+    
+    padding-left: 12%;
+
+}
+
+.css-vj1n65-MuiGrid-root .m-4{
+    margin: 1rem !important;
+    padding-left: 18px!important;
+}
+
+
+.ticket-top-title {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FFFFFF;
+    height: 190px;
+  
+
+}
+
+.ticket-top-icon {
+    position: relative;
+    float: right;
+  
+}
+.ticket-top-icon svg{
+    width:24px;
+    height:24px;
+}
+
+.ticket-top-number {
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0px 5px;
+}
+
+
+.ticket-number-containers2 {
+    margin-top: 11%;
+    top: 50%;
+
+}
+
+
+
+.section-with-radu-prize {
+    height: auto;
+    padding: 96px 13px !important;
+    background-position: center;
+}
+
+.section-with-radu-prize .title {
+    text-align: center;
+    background-position: center;
+    font-family: 'Titling Gothic FB Compressed';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.glowborder {
+    box-shadow: 0px 0px 16px 3px rgba(0, 181, 226, 0.7), 0px 0px 40px 4px rgba(0, 181, 226, 0.35), inset 0px 0px 8px rgba(0, 181, 226, 0.5);
+    border-radius: 12px;
+}
+.glowborder1 {
+    box-shadow: 0px 0px rgba(0, 181, 226, 0.5), 0px 0px 2px rgba(0, 181, 226, 0.35), inset 0px 0px 2px rgba(0, 181, 226, 0.5);
+    border-radius: 12px;
+}
+.border-color-big {
+    border: 8px solid rgba(0, 181, 226, 1);
+    margin-bottom: 50px !important;
+    margin-top: 50px !important;
+}
+.border-color-big1 {
+    border: 3px solid rgba(0, 181, 226, 1);
+}
+.section-prize {
+    background-color: #7b86a9 !important;
+}
+
+.ticket-number-titles2 {
+    font-family: 'Titling Gothic FB Narrow';
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    width: 100px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 0.7rem !important;
+}
+
+.MuiAccordionSummary-expandIconWrapper.Mui-expanded {
+    transform: 'rotate(0deg' !important;
+}
+
+.section-tickets .container .Prizeimg {
+
+}
+.section-tickets .container .Prizeimg  img{
+    max-width: 496px !important;
+    height: auto !important;
+        
+    top: 50%;
+          position: relative;
+          transform: translateY(-50%);
+}
+
+.mt-5-2{
+    margin-top:0px !important ;
+   
+    margin-top: 1rem!important;
+
+}
+
+.about-heading{
+  max-width: 94.5%;
+}
+
+.section-tickets .css-19r6kue-MuiContainer-root{
+     padding:0; 
+    /* padding: 10vw !important; */
+    overflow: hidden;
+}
+
+
+.glowborder .ticket-bottom-grid div{
+ line-height: 108% ;
+}
+.ticket-number-containers2 {
+   
+   display: flex;
+   justify-content: center;
+   gap:15px;
+   flex-direction: column;
+}
+
+.glowborder .MuiGrid-container{
+    height: fit-content !important;
+    display: grid;
+    grid-template-columns: 30% 70%;
+ 
+}
+
+.ticket-number-containers2 img{
+    max-width: 253px !important;
+    width: 100% !important;
+}
+
+
+
+.css-ckb4zc-MuiGrid-root{
+    max-width: unset !important;
+}
+.css-10dy3n1-MuiGrid-root{
+    width: 30.7% !important;
+}
+.css-15nuut7-MuiGrid-root{
+    width: 69% !important;
+}
+
+.svgdivinbottom{
+    position: absolute;
+    z-index: 30;
+    top: 3476px;
+    right: 7px;
+    transform: rotate(182deg) scale(-1);
+}
+ 
+ .svgdivintop{
+    position: absolute;
+    z-index: 30;
+    top: 490px;
+    left: -18px;
+    transform: rotate(171deg) scaleY(-1);
+} 
+
+.css-19r6kue-MuiContainer-root{
+    margin-left: unset !important;
+}
+.ticket-product-titles2{
+    font-size: 28px;
+}
+.container .row .col-lg-6.my-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media(max-width:1400px){
+    .svgdivinbottom{
+        top:3400px !important;
+    }
+}
+@media(min-width:1536px) {
+    .css-19r6kue-MuiContainer-root{
+      max-width: unset !important;  
+    }
+
+}
+@media(min-width:1537px){
+    .line-one{
+      font-size:170px !important ;
+    }
+    .section-with-radu-prize{
+
+        max-width: 100% !important;
+    }
+
+    .line-one{
+        left:-14vw;
+    }
+}
+@media(max-width:1200px){
+    .ticket-bottom-grid p{
+        font-size: 48px !important;
+        line-height: 3rem !important;
+    }
+    .ticket-number-big{
+        font-size: 100px !important;
+        height: 120px !important;
+    }
+    .svgdivinbottom{
+
+        display: none;
+    }
+    .svgdivintop{
+      display:none;
+    }
+}
+@media(max-width:771px){
+    .mt-5-2 img{
+        margin-top: 0px;
+        width: 76% !important;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .mt-5-2{
+        gap:7px  !important;
+        /* margin-top: 1rem!important; */
+        margin-top: -5px !important;
+    }
+    .glowborder .ticket-bottom-grid div{
+       font-size: 60px !important;
+       line-height: 65px !important;
+    }
+    .glowborder .mt-4-2{
+        margin-top: 22px !important;
+        margin-bottom: 1rem !important;
+        font-size: 18px !important;
+        width: 96px !important;
+        line-height: 22px;
+    }
+
+    .productlefttitle{
+        
+    }
+    .glowborder .MuiGrid-container{
+        max-height: 235px !important;
+        overflow: hidden;
+    }
+.ticket-number-title{
+   
+}
+}
+
+
+@media(max-width:768px) {
+    .ticket-number-containers2 img {
+        width: 76% !important;
+        margin-top: 22px;
+        left: 50% !important;
+        position: relative;
+        transform: translateX(-50%);
+    }
+    .ticket-number-containers2{
+       min-height: fit-content !important;
+    }
+    
+    .glowborder .ticket-bottom-grid div{
+        font-size: px !important;
+        line-height: 65px !important;
+     }
+
+     .productlefttitle{
+        font-size: 16px !important;
+        margin: 0 !important;
+
+     }
+     .glowborder .ticket-product-titles2 {
+        font-size: 21px !important;
+     }
+   
+}
+@media(max-width:1000px){
+    .ticket-bottom-grid p{
+        font-size: 48px !important;
+        line-height: 3rem !important;
+    }
+}
+
+@media(max-width:375px){
+    .section-tickets .container .Prizeimg  img{
+        width:335px !important
+    }
+    .ticket-number-big{
+        font-size: 80px !important;
+        
+    }
+    .glowborder .ticket-product-titles2{
+
+        font-size: 14px !important;
+    }
+    .ticket-bottom-grid .css-ahj2mt-MuiTypography-root{
+        font-size: 36px !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mt-5-2{
+        gap:40px !important;
+    }
+    .css-vj1n65-MuiGrid-root .m-4{
+        padding:unset !important;
+    }
+    .glowborder .mt-4-2{
+        margin-top: 14px !important;
+        font-size: 16px !important;
+        width: 86px !important;
+        
+    }
+    .ticket-number-big{
+        
+        height: 118px !important;
+    }
+    .ticket-bottom-grid p{
+        font-size: 36px !important;
+        line-height: 2.3rem !important;
+    }
+    .letterpad {
+        width: 3000px;
+        -webkit-text-stroke: 1px rgba(255, 255, 255, .25);
+        -webkit-text-fill-color: transparent;
+        /* font-size: 100px !important; */
+        font-family: 'Titling Gothic FB Narrow';
+        font-style: normal;
+        font-weight: 450;
+        font-size: 90px !important;
+        line-height: 64px !important;
+        
+        padding-top: 10px !important;
+        padding-bottom: 50px !important;
+        position: relative;
+        letter-spacing: 8%;
+    }
+    .glowborder .ticket-product-titles2{
+
+        font-size: 14px !important;
+    }
+
+    .glowborder .m-5{
+        margin-top: 0px !important;
+        
+    }
+
+    .glowborder .ticket-bottom-grid div{
+        line-height: 40px !important;
+    }
+
+    .glowborder .ticket-number-container{
+        margin-top: 0.15rem !important;    margin-top: 0.15rem !important;
+    }
+
+    .ticket-first .ticket-number-title{
+        font-size: 14px !important;
+    }
+    .ticket-number-containers2 img{
+        min-width: 65px !important;
+        width: 65px !important;
+        top: 31px !important;
+        margin-top: unset !important;
+        position: relative;
+    }
+}
+
+@media(min-width:375px){
+    .ticket-number-containers2 img{
+    min-width: 85px !important;
+                   
+    }
+
+    
+   
+}
+
+@media(max-width:400px){
+    .glowborder .mt-4-2{
+        font-size: 14px !important;
+        margin-top: 8px !important;
+    }
+    .ticket-number-containers2 img{
+        
+    top: 30px !important;
+    position: relative;
+    height: auto;
+            
+    }
+}

@@ -1,0 +1,227 @@
+@import url("https://p.typekit.net/p.css?s=1&k=kkm0jwz&ht=tk&f=39494.39495.39500.39501.39504.39505.39508.39509&a=11736235&app=typekit&e=css");
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 84px 0px 100px;
+    // gap: 128px;
+    // margin-top: 70px;
+    // width: 1440px;
+    // height: 2849.37px;
+    // background: linear-gradient(180deg, #040825 1.56%, #3DAAF2 100%);
+    // flex: none;
+    // order: 3;
+    // align-self: stretch;
+    // flex-grow: 0;
+    .card-container{
+        height: 100%;
+        width: 85%;
+        display: grid;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        row-gap: 40px;
+
+    }
+
+    .card{
+        border: 1px solid white;
+        height: 280px;
+        background: inherit;
+        display: flex;
+        flex-direction: row;
+        border-radius: 10px;
+    }
+    .left{
+       border-right: 1px solid white;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    place-items: center;
+    padding: 20px 50px;
+ 
+
+        .one{
+            // font-size: 70px;
+            // font-weight: 600;
+        }
+        .onecon{
+            text-align: center  ;
+        }
+    }
+    .right{
+        // display: flex;
+        // flex-direction: column;
+        // height: 100%;
+        width: 100%;
+    }
+    .right-header{
+        width: 100%;
+        padding: 10px 40px;
+        border-bottom: 1px solid white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .right-body{
+        width: 100%;
+        padding: 20px 40px;
+        // font-size: 45px;
+    }
+
+    .card-container1{
+            margin: 100px 0;
+            width: 60%;
+        .card1{
+            background-color: transparent;
+            border: 10px solid #00B5E2;
+            box-shadow: 0px 0px 10px rgba(0, 181, 226, 0.7);
+            border-radius: 12px;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            place-items: center;
+            width: 100%;
+            // height: 250px;
+
+            .part1{
+                padding: 20px 50px;
+                text-align: center;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                border-right:3px solid #00B5E2;
+                
+            }
+            .part2{
+               width: 100%;
+                .hd{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 10px 40px;
+                    border-bottom: 3px solid #00B5E2;
+                }
+                .bodycnt{
+                    padding: 20px 40px;
+                }
+            }
+        }
+    }
+}
+.ticket-mini-logo{
+    svg{
+        width:24px;
+        height:24px;
+    }
+}
+
+// Media Query Starts
+
+@media(max-width:1400px){
+    .body-container{
+        .card-container{
+            width:100%;
+        }
+    }
+}
+
+@media(max-width:1200px){
+    .body-container {
+        .left, .right-body, .right-header{
+            padding:20px;
+        }
+        .card-container1{
+            width:75%;
+        }
+        
+    }
+
+    .banner {
+        .sub-banner{
+            .right{
+                margin-top:48px
+            }
+        }
+    }
+}
+
+@media(max-width:991px){
+    .body-container{
+        .card-container{
+            grid-template-columns:1fr;
+        }
+        .card-container1{
+            width:100%;
+        }
+    }
+    .banner {
+        .sub-banner{
+            h1{
+                font-size: 64px !important;
+            }
+            .left{
+                .content{
+                    width:100%;
+                }
+            } 
+        }
+        .text-container{
+            span{
+                font-size: 100px;
+            }
+        }
+    }
+}
+
+@media(max-width:767px){
+    .banner {
+        .sub-banner{
+            padding:64px 20px;
+        }
+
+        .text-container{
+            span{
+                font-size: 80px;
+            }
+        }
+    }
+    .body-container {
+        padding:64px 20px !important;
+        .card-container1{
+            margin:25px 0;
+            .card1 {
+                .part2 {
+                    .hd{
+                        padding: 10px 20px;
+                    }
+                    .bodycnt{
+                        padding: 20px;
+                        font-size: 64px;
+                    }
+                }
+            }
+        }
+    } 
+    
+}
+
+@media(max-width:576px){
+    .body-container{
+        padding:64px 20px;
+    }
+    .right-header{
+        p{
+            font-size: 14px;
+        }
+    }
+    .right-body{
+        h2{
+            font-size: 36px;
+        }
+    }
+}

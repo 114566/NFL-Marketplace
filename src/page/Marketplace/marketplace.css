@@ -1,0 +1,122 @@
+.css-1ex9coi-MuiFormLabel-root-MuiInputLabel-root {
+    display: none !important;
+}
+
+.css-1qqsdnr-MuiAutocomplete-root .MuiFilledInput-root {
+    padding-top: 0px !important;
+}
+
+.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-tag {
+    background-color: #383E55 !important;
+    border-radius: 4px !important;
+    color: white !important;
+}
+
+.css-1qqsdnr-MuiAutocomplete-root .MuiAutocomplete-tag .MuiSvgIcon-root {
+    background-color: #383E55 !important;
+    color: white !important;
+}
+
+.MuiAutocomplete-hasPopupIcon.css-1qqsdnr-MuiAutocomplete-root .MuiFilledInput-root,
+.MuiAutocomplete-hasClearIcon.css-1qqsdnr-MuiAutocomplete-root .MuiFilledInput-root {
+    background-color: transparent !important;
+    border: 1px solid #383E55 !important;
+    border-radius: 6px !important;
+    padding: 10px 5px !important;
+}
+
+.css-1f7flj8-MuiInputBase-root-MuiFilledInput-root:before {
+    display: none;
+}
+
+.MuiAutocomplete-endAdornment {
+    display: none !important;
+}
+
+.streakButton {
+    border: 1px solid #383E55 !important;
+    padding: 18px 12px !important;
+}
+
+.css-w22au8-MuiPaper-root-MuiAccordion-root {
+    box-shadow: none !important;
+}
+
+.streakButton:hover {
+    border: 1px solid #383E55 !important;
+    padding: 18px 12px !important;
+}
+
+.css-cxbf0g-MuiInputBase-root-MuiInput-root:before {
+    display: none !important;
+}
+
+.css-cxbf0g-MuiInputBase-root-MuiInput-root {
+    border: 1px solid #383E55 !important;
+    color: white;
+    padding: 3px 7px !important;
+    border-radius: 6px;
+}
+
+label+.css-cxbf0g-MuiInputBase-root-MuiInput-root {
+    margin-top: 0px !important;
+}
+
+.css-px2s97-MuiFormLabel-root-MuiInputLabel-root {
+    display: none !important;
+}
+
+.css-o1h39m-MuiTypography-root {
+    color: white !important;
+}
+
+.css-1p88wiq-MuiPaper-root-MuiCard-root {
+    background-color: transparent !important;
+}
+
+.css-49wln2-MuiPaper-root-MuiCard-root {
+    background-color: transparent !important;
+}
+
+.cardtype1 {
+    display: block;
+    border-width: 2px !important;
+    border-style: solid !important;
+    border-image-source: linear-gradient(265.78deg, #EF463E 0%, #FF981C 23.02%, #F3DB39 46.48%, #AED73D 76.78%, #00B5E2 100%) !important;
+}
+
+label[data-shrink=false]+.MuiInputBase-formControl .css-1cj54tk-MuiInputBase-input-MuiFilledInput-input {
+    margin-top: 0px !important;
+}
+
+.maxcardtitle {
+    background: linear-gradient(270deg, #ECDB3A 64.84%, #FEA120 89.2%, #F0483E 98.24%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.maxcard {
+    border-style: solid !important;
+    border-width: 3px !important;
+    border-image: conic-gradient(#EF463E, #FF981C, #F3DB39, #AED73D, #00B5E2, #EF463E) 1 !important;
+}
+
+.css-csuibc-MuiInputBase-root-MuiFilledInput-root:before {
+    border-bottom: 0px !important;
+}
+
+.css-zk71yo::before {
+    border-bottom: none!important;
+}
+.css-1ovq7mb {
+    background-color: transparent !important;
+}
+.MuiAutocomplete-hasPopupIcon.css-xxees4 .MuiFilledInput-root, .MuiAutocomplete-hasClearIcon.css-xxees4 .MuiFilledInput-root {
+    padding-top: 5px!important;
+    padding-bottom: 5px!important;
+    border-radius: 5px!important;
+}
+.css-xxees4 .MuiFilledInput-root {
+    padding-top: 0px!important;
+}

@@ -1,0 +1,237 @@
+.contents {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
+  gap: 24px;
+  padding: 40px 108px;
+  justify-items: center;
+
+}
+
+.buttonfit {
+  border: 1px solid #383e55 !important;
+  min-width: 120px;
+  font-size: 120%;
+  padding: 8px 18px;
+  border-radius: 32px;
+  font-family: 'Titling Gothic FB Narrow';
+}
+
+.buttonfit1 {
+  border: 1px solid #202624 !important;
+  min-width: 120px;
+  font-size: 120%;
+  padding: 8px 18px;
+  font-family: 'Titling Gothic FB Narrow';
+  border-radius: 32px;
+}
+
+.buttonfit:hover {
+  border: 1px solid #383e55 !important;
+}
+.card-container .card-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+}
+
+.white-button {
+  background-color: white !important;
+  color: black !important;
+  padding: 0px 0px!important;
+}
+
+.card-container {
+  padding: 12px;
+  width: 288px;
+  /*height: 523px;*/
+  position: relative;
+  border: 1px solid #383e55;
+}
+.card-container1{
+    background-color: #ffffff20;
+}
+
+.card-container .card-image {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 218px;
+  height: 302px;
+  margin-bottom: 16px;
+  margin-top: 12px;
+}
+.card-container .status {
+  font-family: Titling Gothic FB Narrow;
+  font-size: 10px;
+  font-weight: 450;
+  line-height: 14px;
+  letter-spacing: 0.12em;
+  text-align: left;
+}
+.card-container .heading-content {
+  font-family: Titling Gothic FB Compressed;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 216px;
+}
+
+.card-container .sub-content {
+  width: 256px;
+  height: 16px;
+  font-family: "Neue Haas Grotesk Text Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.75);
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.card-container .content-botton {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 7px 16px 5px 16px;
+  gap: 6px;
+
+  width: 120px;
+  height: 32px;
+
+  /* Bud Light Gradients/Three Step Angled */
+
+  background: linear-gradient(
+    248.6deg,
+    #3daaf2 0%,
+    #0032c7 57.55%,
+    #001c71 100%
+  );
+  border-radius: 32px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 11px;
+}
+
+.card-container .botton-edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 7px 16px 5px 16px;
+  gap: 6px;
+  width: 120px;
+  height: 32px;
+  border: 1px solid #383e55;
+  border-radius: 32px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 11px;
+}
+
+.card-container .botton-locked {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  padding: 7px 16px 5px 16px;
+  gap: 6px;
+
+  width: 120px;
+  height: 32px;
+  border: 1px solid #383e55;
+  background: #202640;
+  border-radius: 32px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin-top: 11px;
+}
+
+.card-container .botton-locked,
+.card-container .botton-edit,
+.card-container .content-botton
+span{
+  font-family: 'Titling Gothic FB Narrow';
+  letter-spacing: 0.12em;
+}
+.card-container .botton-locked span{
+  color: #ffffffbf;
+}
+.card-container .no-button {
+    border-top: 1px solid #383E55;
+    padding: 13px 12px;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 5px;
+}
+
+.card-container .no-button span{
+    font-family: 'Neue Haas Grotesk Text Pro';
+    font-style: normal;
+    /* font-weight: 400; */
+    font-size: 12px;
+    line-height: 16px;
+    color:rgba(255, 255, 255, 0.75);
+
+}
+
+
+.card-container .lock-icon {
+  left: 20.83%;
+  right: 20.84%;
+  top: 12.5%;
+  bottom: 16.67%;
+}
+
+.sub-icon {
+  height: 24px;
+  width: 24px;
+  padding-left: 4px;
+}
+
+@media (max-width: 1420px) {
+  .contents {
+    padding: 40px 88px !important;
+  }
+}
+
+@media (max-width: 1390px) {
+  .contents {
+    padding: 40px 68px !important;
+  }
+}
+
+@media (max-width: 1000px) {
+  .contents {
+    padding: 40px 48px !important;
+  }
+}
+@media (max-width: 600px) {
+  .contents {
+    padding: 40px 48px !important;
+  }
+}
+@media (max-width: 400px) {
+  .contents {
+    padding: 40px 48px !important;
+  }
+}

@@ -1,0 +1,544 @@
+.ticket-titles2 {
+  font-family: "Titling Gothic FB Compressed" !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 58px !important;
+  padding: 0px 15px;
+  line-height: 3.8rem !important;
+}
+.ticket-top-grids2 {
+  height: 50px !important;
+  padding: 12px 34px !important;
+  font-family: Neue Haas Grotesk Text Pro !important;
+
+  font-size: 14px !important;
+}
+.productlefttitles2 {
+  font-style: normal !important;
+  font-size: 34px !important;
+  width: 180px !important;
+  text-align: center !important;
+  vertical-align: top !important;
+  height: 101px;
+  margin: 0 !important;
+  line-height: 35px;
+  top: -1.5rem !important;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.top-product-contents2 {
+  font-size: 110px;
+  font-family: Titling Gothic FB Compressed;
+  line-height: 128px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.m-20-2-2 {
+  margin-top: unset !important;
+}
+
+.container .row .my-3 .mt-3-2 {
+  width: 167px;
+  border: 1px solid #0032c7;
+  border-radius: 2rem;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+/* .container .css-11reh94-MuiGrid-root .css-1idn90j-MuiGrid-root img{
+   
+  margin-top: 100px !important;
+} */
+/* 
+.custom-ticket-tops2 {
+
+  height: 50px !important;
+  padding: 6px 20px !important;
+} */
+
+.css-1oagcv5-MuiTypography-root {
+  max-width: 700px !important;
+}
+
+.container .css-11reh94-MuiGrid-root .css-1idn90j-MuiGrid-root {
+  display: flex;
+  justify-content: center;
+}
+.container .css-11reh94-MuiGrid-root .css-1idn90j-MuiGrid-root:nth-child(2) {
+  left: 2.5% !important;
+  justify-content: unset;
+  position: relative;
+}
+.container .css-11reh94-MuiGrid-root .css-1idn90j-MuiGrid-root img {
+  width: 94.5% !important;
+}
+
+.custom-ticket-tops2 {
+  height: 50px !important;
+  /* padding: 6px 32px !important; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-number-bigs2 {
+  font-size: 140px !important;
+  font-family: Titling Gothic FB Compressed;
+  font-style: Medium;
+  height: 120px;
+  line-height: 105% !important;
+}
+
+@media (min-width: 1500px) {
+}
+
+@media only screen and (min-width: 601px) {
+  .responsive-footer-link {
+    display: flex;
+  }
+
+  .counter-number {
+    font-size: 180% !important;
+  }
+
+  .font-responsive {
+    font-size: 56px !important;
+  }
+
+  .counter-number {
+    font-family: "Titling Gothic FB Narrow" !important;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 56px !important;
+    line-height: 64px !important;
+    text-align: center;
+    letter-spacing: 0.01em !important;
+    color: #ffffff;
+  }
+}
+
+.container .row .my-3 .mt-3-2 {
+  width: 167px;
+  border: 1px solid #0032c7;
+  border-radius: 2rem;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ticket-number-containers2 img {
+    width: 60% !important;
+    left: 50% !important;
+    position: relative;
+    transform: translateX(-50%);
+  }
+
+  .css-vj1n65-MuiGrid-root .ticket-bottom-grid .top-product-content {
+    font-size: 36px !important;
+  }
+  .mt-5-2 {
+    height: 160px !important;
+    margin-top: 29px;
+  }
+  .css-1oagcv5-MuiTypography-root {
+    font-size: 18px !important;
+  }
+  .line-one {
+    left: -15px !important;
+  }
+
+  .css-1xjhfes-MuiTypography-root {
+    font-size: 36px !important;
+  }
+
+  #weekly-image {
+    height: 180px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .section-faq {
+    padding: 0px !important;
+  }
+
+  .other-link {
+    margin-left: 0px !important;
+  }
+
+  .faq-link {
+    margin-left: 16px !important;
+  }
+
+  .section-with-radu {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+    background-position: center !important;
+  }
+
+  .p-16 {
+    padding: 16px !important;
+  }
+
+  .svg-hide {
+    display: none !important;
+  }
+
+  .about-heading {
+    margin-top: -30px !important;
+  }
+
+  #svg-hide {
+    display: none !important;
+  }
+
+  .responsive-hide {
+    display: none !important;
+  }
+
+  .responsive-footer-link {
+    color: black !important;
+  }
+
+
+  .responsive-card {
+    display: flex;
+    flex-direction: row !important;
+  }
+
+  .responsive-card div {
+    display: flex;
+  }
+
+  .email-input-landing {
+    width: 100%;
+  }
+
+  .btn-submit-email-landing {
+    width: 100%;
+    margin: 0px !important;
+  }
+
+  .displaynone {
+    display: none;
+  }
+
+  .m-10 {
+    margin-top: 50px !important;
+  }
+
+  .h2-title {
+    font-size: 270% !important;
+  }
+
+  .title {
+    font-size: 420% !important;
+    line-height: 1.2 !important;
+  }
+
+  .css-4hleli-MuiPaper-root {
+    height: 250px !important;
+  }
+
+  .img-hide {
+    display: none !important;
+  }
+
+  .white-button {
+    width: 300px;
+  }
+
+  .day {
+    font-weight: 300 !important;
+    font-size: 14px !important;
+    text-align: center;
+    font-family: "Neue Haas Grotesk Text Pro";
+  }
+
+  .section-about {
+    margin-top: -20px !important;
+  }
+
+  .section-timing {
+    padding-top: 1px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+
+  .title-faq {
+    margin-top: 30px !important;
+    font-size: 270% !important;
+  }
+
+  .title {
+    font-size: 270% !important;
+  }
+
+  .timing-title {
+    font-size: 270% !important;
+  }
+
+  .responsive-getSet {
+    padding: 0px !important;
+  }
+
+  .ticket-top-grids2 {
+    margin: auto;
+  }
+
+  .section-tickets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    isolation: isolate;
+    /* width: 1440px; */
+    /* height: 2849.37px; */
+    background: linear-gradient(
+      171.91deg,
+      #061148 12.63%,
+      #001c71 20.3%,
+      #0032c7 60.46%,
+      #3daaf2 94.17%
+    );
+  }
+  .css-1idn90j-MuiGrid-root {
+    padding: 0;
+  }
+  .glowborder .custom-ticket-tops2 {
+    justify-content: space-between !important;
+  }
+  .css-vj1n65-MuiGrid-root .ticket-bottom-grid .top-product-contents2 {
+    font-size: 36px !important;
+  }
+  .section-tickets .container div {
+    justify-content: center;
+    font-size: 15px !important;
+  }
+  .css-1f5tght-MuiTypography-root {
+    font-size: 36px !important;
+  }
+  .faq-link {
+    margin-left: 16px !important;
+  }
+
+  .footer-margin {
+    margin-bottom: 40px !important;
+  }
+
+  .ticket-number-titles2 {
+    font-size: 80% !important;
+    margin-top: -40px;
+    line-height: 1.4 !important;
+    top: -19px;
+    padding-bottom: unset !important;
+  }
+
+  .title-small {
+    font-size: 16px !important;
+    font-weight: "300" !important;
+  }
+
+  .ticket-top-grids2 {
+    font-family: Neue Haas Grotesk Text Pro !important;
+    line-height: 20px !important;
+    font-size: 14px !important;
+    padding: 12px 1px 12px 10px !important;
+  }
+
+  .ticket-titles2 {
+    margin: auto;
+    padding: 0px !important;
+    font-family: Titling Gothic FB Compressed !important;
+    font-size: 36px !important;
+    line-height: 44px !important;
+    letter-spacing: 1% !important;
+  }
+
+  .ticket-item {
+    margin: 10px 0px !important;
+    width: 98.5% !important;
+  }
+
+  .ticket-number-containers2 {
+    padding: unset !important;
+  }
+
+  .ticket-top-icon {
+    margin-right: 20px !important;
+  }
+
+  .css-q682ln-MuiTypography-root {
+    height: 100% !important;
+    margin: auto !important;
+    vertical-align: middle;
+  }
+
+  .counter-number {
+    font-size: 200% !important;
+    font-weight: 450 !important;
+  }
+
+  .heightCard {
+    height: auto !important;
+  }
+
+  .ticket-first {
+    height: auto !important;
+  }
+
+  .ticket-second {
+    height: 150px !important;
+  }
+
+  .ticket-top-grids2 {
+    height: 50px !important;
+  }
+
+  .ticket-top-title {
+    height: unset !important;
+    font-size: 14px !important;
+    font-family: Neue Haas Grotesk Text Pro;
+  }
+
+  .ticket-number-bigs2 {
+    font-size: 80px !important;
+  }
+
+  .ticket-top-number {
+    font-size: 14px !important;
+    font-family: Neue Haas Grotesk Text Pro;
+  }
+
+  .card-flex {
+    display: flex !important;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .responsive-m {
+    margin: 16px;
+  }
+
+  .title-about {
+    font-size: 64px !important;
+    line-height: 64px !important;
+  }
+
+  .fontSize20 {
+    font-size: 20px !important;
+  }
+
+  .watermark {
+    font-size: 64px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    line-height: 1 !important;
+  }
+
+  .title-grab {
+    font-size: 36px !important;
+    font-family: Titling Gothic FB Compressed !important;
+    line-height: 44px !important;
+  }
+
+  .content-grab {
+    font-size: 18px !important;
+    font-family: Neue Haas Grotesk Text Pro !important;
+    line-height: 28px !important;
+  }
+
+  .css-q682ln-MuiTypography-root {
+    height: auto !important;
+  }
+
+  .blue-text-button {
+    min-width: 100% !important;
+  }
+}
+
+.superBowl {
+  display: blocK;
+}
+
+@media only screen and (max-width: 1200px) {
+  .superBowl {
+  }
+
+  .top-product-contents2 {
+    font-size: 100px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .ticket-number-containers2 img {
+    width: 90% !important;
+  }
+
+  .container .row .my-3 .mt-3-2 {
+    width: 96% !important;
+  }
+
+  .css-po2y87-MuiGrid-root .MuiGrid-grid-xs-12 {
+    width: 96% !important;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .superBowls2 {
+    display: unset !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .ticket-number-containers2 img {
+    width: 80%;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+  }
+
+  .mt-5-2 {
+    gap: 22px;
+  }
+}
+
+@media (max-width: 899px) {
+  .border-color-big {
+    margin-top: 50px !important;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .ticket-titles2 {
+    padding: 0px !important;
+    font-family: Titling Gothic FB Compressed !important;
+    font-size: 25px !important;
+    line-height: 25px !important;
+    letter-spacing: 1% !important;
+  }
+  .mui-ticket-top-icon {
+    height: 10px;
+    width: 10px;
+    margin-right: 0px !important;
+  }
+  .ticket-top-grids2 {
+    height: 50px !important;
+    padding: 0px !important;
+    font-family: Neue Haas Grotesk Text Pro !important;
+
+    font-size: 14px !important;
+  }
+}
+
+.grand_prize_full_width {
+  width:100%;
+  height: auto;
+}
